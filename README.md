@@ -5,11 +5,14 @@ This is an arduino project where we want to control a servo motor via an IR remo
 - The speed of the servo motor going between 0 and 180 degree can be made faster or slower by using the Up and Down buttons respectively
 
 ## Parts used:
-(All parts can be found in the ELEGOO UNO R3 Starter Kit)
+
 - Servo Motor SG90
 - IR-Remote, IR-Receiver module (AX-1838HS)
-- Green LED
-- ELEGOO UNO R3
+- 2 x LED 
+  - On/Off indicator
+  - Button pressed indicator
+- 2 x 220 Ohm resistor
+- Arduino UNO R3
 
 ## Libraries used:
 - [Servo](https://www.arduino.cc/en/Reference/Servo)
