@@ -9,3 +9,6 @@ This is an arduino project where we want to control a servo motor via an IR remo
 - Servo Motor SG90
 - IR-Remote, IR-Receiver module (AX-1838HS)
 - ELEGOO UNO R3
+
+## Libraries used:
+- Servo

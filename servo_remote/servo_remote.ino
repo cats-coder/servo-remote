@@ -1,10 +1,22 @@
+/* Includes */
+#include <Servo.h>
+
+
+/* Defines */
+#define SERVO_PIN       9
+#define DEFAULT_ANGLE   90
+
+
+/* Variables */
+Servo servo;
+
+
 void setup() {
-  // put your setup code here, to run once:
-  Serial.begin(115200);
+  /* Setup servo motor on digital pin 9 */
+  servo.attach(SERVO_PIN);
+  /* Set servo start position */
+  servo.write(DEFAULT_ANGLE);
 }
 
 void loop() {
-  // put your main code here, to run repeatedly:
-  Serial.print("Loop\n");
-  delay(1000);
 }
