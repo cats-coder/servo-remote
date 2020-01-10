@@ -8,7 +8,9 @@ This is an arduino project where we want to control a servo motor via an IR remo
 (All parts can be found in the ELEGOO UNO R3 Starter Kit)
 - Servo Motor SG90
 - IR-Remote, IR-Receiver module (AX-1838HS)
+- Green LED
 - ELEGOO UNO R3
 
 ## Libraries used:
-- Servo
+- [Servo](https://www.arduino.cc/en/Reference/Servo)
+- [IRremote](https://www.arduinolibraries.info/libraries/i-rremote)
