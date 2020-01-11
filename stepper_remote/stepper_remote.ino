@@ -85,9 +85,7 @@ boolean decreaseSpeed() {
  * Hint: if the start rotation (default 0) is modifed then you might want to adapt this for correct behavior
  */
 void stepToStartRotation() {
-  Serial.print("Current rot: "); Serial.println(currentRotation);
   int toRotate = -currentRotation * STEP_DEGREE;
-  Serial.print("Rotate: "); Serial.println(toRotate);
   stepper.step(toRotate);
   currentRotation = 0;
 }
@@ -145,7 +143,7 @@ boolean setIRCommando() {
  * Setup servo, ir-receiver and leds 
  */
 void setup() {
-  Serial.begin(115200); // uncomment for prints
+  //Serial.begin(115200); // uncomment for prints
   /* Configure and turn off leds */
   pinMode(SYS_STAT_LED, OUTPUT);
   digitalWrite(SYS_STAT_LED, LOW);
