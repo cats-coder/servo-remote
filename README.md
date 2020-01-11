@@ -34,7 +34,9 @@ Make sure the listed libraries are installed correctly. See below for wiring and
 See code comments on the `#define`s for setting the maximum and minimum angle for example.
 
 ## Wiring
-T.B.A.
-
+### Using the Servo Motor
+![Servo - Example Wiring](wiring/servo_remote.png?raw=true "Servo - Example Wiring")
+### Using the Stepper Motor
+![Stepper - Example Wiring](wiring/stepper_remote.png?raw=true "Stepper - Example Wiring")
 ## License
 WTFPL - See License.txt
