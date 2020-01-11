@@ -58,9 +58,11 @@ boolean setIRCommando() {
       if ( systemState == SYSTEM_ON ) {
         systemState = SYSTEM_OFF;
         digitalWrite(SYS_STAT_LED, LOW);
+        digitalWrite(INC_DECR_LED, LOW);
       } else {
         systemState = SYSTEM_ON;
         digitalWrite(SYS_STAT_LED, HIGH);
+        digitalWrite(INC_DECR_LED, reachedMinMax? HIGH: LOW);
       }
       needDelay = true;
       break;
