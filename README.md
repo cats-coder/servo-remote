@@ -107,4 +107,6 @@ Note that the `STEPPER` pins do not actually connect to the motor but the motor 
 ### Using the Stepper Motor
 ![Stepper - Example Wiring](wiring/stepper_remote.png?raw=true "Stepper - Example Wiring")
 ## License
-WTFPL - See License.txt
+The code is licensed under the [WTFPL](License.txt)
+
+cats-coder © 2020
