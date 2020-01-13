@@ -1,5 +1,5 @@
 # Servo Remote 
-This is an arduino project to control a servo motor via an IR remote. It also includes an example for controlling a stepper motor featuring the same functionality. 
+This is an Arduino project to control a servo motor via an IR remote. It also includes an example for controlling a stepper motor featuring the same functionality. 
 
 - The motor can be turned on and off using the On/Off button
 - The speed of the motor going between 0 and 180 degree can be made faster or slower by using the IR-Remote (Up and Down buttons respectively)
@@ -26,7 +26,7 @@ This is an arduino project to control a servo motor via an IR remote. It also in
 ## Description
 The **servo_remote** directory contains the arduino sketch as well as a custom control class for the servo motor (ServoController.cpp and ServoController.h) to control the speed and direction without using delay(). 
 
-The **stepper_remote** directory contains one arduino sketch with the stepper example.
+The **stepper_remote** directory contains an Arduino sketch with the stepper example.
 
 In **remote_logger** you will find a very simple Arduino sketch that will print the hex values of received IR-signals.
 
