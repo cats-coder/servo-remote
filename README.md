@@ -35,7 +35,7 @@ In **remote_logger** you will find a very simple Arduino sketch that will print 
 Firstly make sure the libraries listed above are installed correctly (Stepper and Servo are most likely to exist by default). See [here](https://www.arduino.cc/en/Guide/Libraries) for more information on how to install libraries in the Arduino IDE.
 
 ### Setup the IR Remote
-Before uploading the sketch to the Arduino you must configure they values for the keys of your remote. This application uses 3 keys:
+Before uploading the sketch to the Arduino you must configure thed< values for the keys of your remote. This application uses 3 keys:
 `ON/OFF`, `UP` and `DOWN`
 
 Each key is mapped to its specific hex value sent by the remote. In this repository under **remote_logger** you can find a simple helper sketch for printing the hex value of IR-signals. Simply replace the connection pin in remote_logger.ino, open the serial monitor, upload the sketch and write down the values.
